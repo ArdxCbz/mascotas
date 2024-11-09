@@ -1,0 +1,3 @@
+[build]
+  command = "npm install @angular/cli && ng build --prod"
+  publish = "dist"
