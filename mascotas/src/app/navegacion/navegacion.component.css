@@ -1,0 +1,22 @@
+.navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navegacion a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navegacion a.active {
+    border-bottom: 2px solid #ff6347; 
+  }
+  
+  .navegacion a:hover {
+    background-color: #555;
+  }
+  
